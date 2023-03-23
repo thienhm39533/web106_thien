@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    padding: 10px;
+}
+.header{
+    text-align: center;
+    height: 50px;
+    width: auto;
+    background-color: #eeeeee;
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+.menu{
+    text-align: center;
+    width: auto;
+    height: 30px;
+    background-color: #eeeeee;
+    margin: 10px;
+    line-height: 30px;
+}
+.flex{
+    width: auto;
+    margin: 10px;
+    display: flex;
+    line-height: 150px;
+}
+footer{
+    width:auto;
+    height: 30px;
+    background-color: #eeeeee;
+    margin: 10px;
+    clear: both;
+    text-align: center;
+    line-height: 30px;
+}
+.noidung1{
+    flex-basis: 20%;
+    text-align: center;
+    background-color: #eeeeee;
+    height: 150px;
+}
+.noidung2{
+    flex-basis: 56%;
+    margin: 0px 2%;
+    text-align: center;
+    background-color: #eeeeee;
+    height: 150px;
+}
+.noidung3{
+    flex-basis: 20%;
+    text-align: center;
+    background-color: #eeeeee;
+    height: 150px;
+}
+@media screen and (max-width: 768px) {
+    .noidung{
+        flex-direction: column;
+    }
+    .noidung2{
+        margin: 15px 0px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="menu">Thanh menu điều hướng </div>
+        <div class="flex">
+            <div class="noidung1">Nội dung </div>
+            <div class="noidung2">Nội dung chính</div>
+            <div class="noidung3">Nội dung</div>
+        </div>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
