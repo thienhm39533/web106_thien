@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+   <script>   $(document).ready(function(){
+    $("p").hide("fast");
+
+    $("button").click(function(){
+
+        $("#btn1").click(function(){
+            $("#sample1").show("fast");
+            $("#sample2").hide("fast");
+        });
+
+        $("#btn2").click(function(){
+            $("#sample2").show("fast");
+            $("#sample1").hide("fast");
+        });
+    });
+});
+    </script> 
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <img src="image-Hinh-anh-nhan-dien-thuong-hieu-Thegioididongcom.jpg" alt="Bootstrap" width="30" height="24">
+         
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="trangchu.html">Trang chủ</a>
+              <a class="nav-link" href="tintuc.html">Tin tức</a>
+              <a class="nav-link" href="lienhe.html">Liên hệ</a>
+            
+            </div>
+          </div>
+        
+      </nav>
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image-Hinh-anh-nhan-dien-thuong-hieu-Thegioididongcom.jpg" class="d-block w-100" alt="...">
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <div class="row justify-content-center mt-4">
+        <div class="card p-0" style="width: 18rem;">
+        <img src="image-Hinh-anh-nhan-dien-thuong-hieu-Thegioididongcom.jpg" class="card-img-top w-100" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Danh thiếp</h5>
+        <p id="sample1" class="card-text">SĐT:0384402256</p>
+        <p id="sample2" class="card-text">Địa chỉ:Phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội</p>
+        <div class="d-flex justify-content-between">
+        <button id="btn1" href="#" class="btn btn-primary">SĐT của shop</button>
+        <button id="btn2" href="#" class="btn btn-primary">Địa chỉ của shop</button>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+  <div class="container-fluid">
+    <div class="container">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-button">
+    
+        <div class="me-5 d-none d-lg-block">
+           <span>Liên hệ với shop thông qua các mạng xã hội:</span></div>
+<div class="d-flex">
+    <a href="" class="me-4 link-secondary">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="" class="me-4 link-secondary">
+        <i class="bi bi-tiktok"></i>
+  </a>
+</div>
+      </section>
+  
+ 
+    </div>
+    <div class="container text-center text-md-start mt-5 border-top">
+      <div class="row mt-3">      
+        <div class="col mb-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h5>Shoppet</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">Sẵn sàng trở thành nhân viên shoppet.</li>
+            </ul>
+        </div>
+
+    <div class="col md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5>Thú cưng chủ yếu của shoppet</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chó</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mèo</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Thỏ</a></li>
+
+        </ul>
+    </div>
+
+    <div class="col md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5>Thú cưng</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Uy tín</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Chất lượng</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Giá cả hợp lý</a></li>
+
+        </ul>
+    </div>
+
+    <div class="col md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h5>Liên hệ</h5>
+        <ul class="nav flex-column">
+        
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-house-add"></i>
+                    Phố Trịnh Văn Bô, phường Phương Canh, quận Nam Từ Liêm, TP Hà Nội</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-envelope"></i>
+                    shoppet@gmail.com</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-phone"></i>0981725836</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><i class="bi bi-phone"></i>02463276402</a></li>
+</ul>
+</div>
+<div class="bg-danger text-center p-4 text-white">
+            <p class="text-center text-body-secondary">Thuộc quyền sở hữu của: <a href="#">phuongpmph40381</a></p>
+            </div>
+        
+    </div>
+    </div>
+        </div>
+        </div>
+</body>
+</html>
